@@ -14,6 +14,23 @@ An intelligent AI assistant for university admissions counselors that reads appl
 - Supports application status updates, mimicking counselor actions in the admissions pipeline.
 - React-based front-end with Excel data fetching and dynamic UI updates.
 
+## Acceptable Questions
+
+You can ask the AI assistant any of the following:
+- Who's missing financial documents?
+- List applicants missing documents.
+- Show priority applicants.
+- List students with upcoming deadlines.
+- Show students under review.
+- Show students who are accepted.
+- Show students who are rejected.
+- List waitlisted students.
+- Draft reminder emails for students missing documents.
+- Mark student application as reviewed.
+- What is the status of student [student name]?
+- How many emails have been sent so far?
+- Give me a Monday morning briefing of urgent applicants.
+
 ## Getting Started
 
 ### Prerequisites
@@ -28,57 +45,4 @@ An intelligent AI assistant for university admissions counselors that reads appl
 3. Ensure your main component is `App.js` inside `src/` with the provided code.
 
 ### Running the App
-npm install
-
-npm start 
-
-
-The app will fetch applicant data from the Excel file, process it, and be ready to answer questions and assist counselors in admissions workflows.
-
-## Usage
-
-- Ask questions like:
-  - "Who's missing financial documents?"
-  - "List priority applicants."
-  - "Show students under review."
-  - "Draft reminder emails."
-- Select a student from the priority list to draft or edit an email.
-- Approve and simulate sending emails.
-- The app tracks emails sent count and dynamically updates lists.
-
-## Custom Actions
-
-The app includes simulated core actions inspired by Salesforce invocable methods:
-
-- **Find Priority Applicants:** Ranks applicants by urgency and deadline for counselor focus.
-- **Draft Personalized Email:** Generates email drafts tailored to the student’s missing documents and deadlines.
-- **Update Application Status:** Simulates marking documents reviewed and updating the student's application pipeline stage.
-
-## File Structure
-
-- `public/collection_field_name_description.xlsx` - Excel file with applicant data.
-- `src/App.js` - Main React component implementing the AI assistant logic and UI.
-
-## Technologies Used
-
-- React.js for front-end UI
-- lucide-react for icons
-- xlsx library to parse Excel files in browser
-- Modern JavaScript (ES6+)
-
-## Limitations
-
-- The app runs fully in the browser; no backend integration or persistent database.
-- Excel file format must match expected schema.
-- Application status update is local simulation only.
-
-## Future Improvements
-
-- Add backend integration to fetch live CRM data.
-- Add user authentication and role management.
-- Add email sending through SMTP or 3rd party API.
-- Improve NLP understanding with advanced models.
-
-- **Acknowledgment:**  
-This project runs on `localhost:3000` and was developed as part of an AI expertise review project for the EDMO company.
 
