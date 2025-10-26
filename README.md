@@ -29,6 +29,7 @@ An intelligent AI assistant for university admissions counselors that reads appl
 
 ### Running the App
 npm install
+
 npm start 
 
 
@@ -77,4 +78,7 @@ The app includes simulated core actions inspired by Salesforce invocable methods
 - Add user authentication and role management.
 - Add email sending through SMTP or 3rd party API.
 - Improve NLP understanding with advanced models.
+
+- **Acknowledgment:**  
+This project runs on `localhost:3000` and was developed as part of an AI expertise review project for the EDMO company.
 
