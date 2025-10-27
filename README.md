@@ -45,4 +45,5 @@ You can ask the AI assistant any of the following:
 3. Ensure your main component is `App.js` inside `src/` with the provided code.
 
 ### Running the App
+npm run build; npm start 
 
